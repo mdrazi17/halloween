@@ -1,0 +1,194 @@
+html {
+	background-image: url("../images/bats.gif");	
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 auto; /* Center the body horizontally */
+    padding: 0;
+    max-width: 1300px; /* Set the width to 800 pixels */
+    max-height: auto;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 0 9px 18px 9px;
+}
+
+
+
+
+#right-sidebar {
+    float: right;
+    width: 160px;
+    margin-right: 20px;
+}
+
+
+header {
+    background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: -moz-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    padding: .9375em 1.875% .9375em 1.875%;  /* 15 / 16; 15 / 800 x 100 */    
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+header img { 
+	float: left; 
+	padding-right: 1.875%; 
+	width: 10.6%;
+	max-width: 85px;
+	min-width: 40px;
+} 
+header h2 {
+	font-size: 230%;
+}
+header h3 {
+	font-size: 125%;
+	padding-bottom: .75em;
+}
+
+.sidebar-item a {
+    color: orange; /* Set link text color to orange */
+    font-weight: bold; /* Make link text bold */
+    text-decoration: none; /* Remove underlines */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition */
+}
+
+.sidebar-item a:hover,
+.sidebar-item a:focus {
+    color: green; /* Change link text color to green on hover/focus */
+    background-color: transparent; /* Remove background color on hover/focus */
+}
+
+/* Increase space between list items */
+.sidebar-item {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#content {
+    flex: 1; /* Take up remaining space in the container */
+    margin-left: 20px; /* Add some spacing between columns */
+}
+/* Reduce font size and center the footer */
+footer {
+    font-size: 14px; /* Reduce the font size */
+    margin-top: 20px; /* Add some top margin for spacing */
+    background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    color: #040404;
+    padding: 1px 0;
+    border-top: 3px solid black;
+}
+
+footer {
+    text-align: center; /* Center the text in the footer */
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex; /* Use flexbox to make it responsive */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+.navbar li:last-child {
+    border-right: none;
+}
+
+.navbar .active {
+    background-color: #040404;
+    color: orange;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%; /* Take up the entire width */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+
+
+/* Adjust dropdown styles */
+.dropbtn {
+    background-color: black;
+}
+
+.dropdown-content {
+    background-color: black;
+    position: absolute;
+    display: none;
+    min-width: 160px;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: gray;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#sidebar {
+    float: left;
+    width: 160px;
+    margin-right: 20px;
+    color: aquamarine;
+    top: 0; /* Position from the top of the viewport */
+    left: 0; /* Position from the left of the viewport */
+    overflow-y: auto; /* Add vertical scroll if needed */
+}
+
+.sidebar-item {
+    border: 2px solid #333;
+    list-style-type: none;
+}
+
+.sidebar-item a {
+    color: black; /* Link text color */
+    text-decoration: none; /* Remove underlines */
+    display: block; /* Make the entire box clickable */
+    background-color: orange;
+}
+
+.sidebar-item a:hover {
+    background-color: gray; /* Change background color on hover */
+}
+
+
+
+table {
+    width: 75%;
+    border-spacing: 10px;
+    
+}
+
+
+
+table th {
+    text-align: left; /* Aligns the text to the left */
+}
+
+.price{
+    background-color: #F5DEB3;
+    text-align: right;
+}
